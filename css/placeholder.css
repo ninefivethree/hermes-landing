@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    display: flex;
+    min-height: 100svh;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    max-width: 32rem;
+    object-fit: contain;
+    object-position: center;
+    user-select: none;
+}
