@@ -1,270 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hermes</title>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="assets/icons/runner-adaptive.svg" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/styles.css" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;550;600&family=Manrope:wght@200..800&display=swap"
-        rel="stylesheet">
-</head>
+      rel="icon"
+      href="assets/icons/runner-adaptive.svg"
+      type="image/svg+xml"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;550;600&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <div id="nav-content">
-            <a href="/">
-                <img src="assets/icons/runner-light.svg" alt="Hermes Runner logo" height="28px">
-            </a>
-            <div id="nav-links">
-                <a href="#fleet">Fleet</a>
-                <a href="#faq">FAQ</a>
-                <a href="#support">Support</a>
-                <a href="#app" class="cta cta-accent">Get the app</a>
-            </div>
+      <div id="nav-content">
+        <a href="/">
+          <img
+            src="assets/icons/runner-light.svg"
+            alt="Hermes Runner logo"
+            height="28px"
+          />
+        </a>
+        <div id="nav-links">
+          <a href="#fleet">Fleet</a>
+          <a href="#faq">FAQ</a>
+          <a href="https://youtu.be/dQw4w9WgXcQ">Support</a>
+          <a href="#app" class="cta cta-accent">Get the app</a>
         </div>
+      </div>
     </nav>
-    <main>
-        <div id="hero-bg">
-            <div id="hero-content">
-                <div id="hero-claim-container">
-                    <h1 class="claim">Revolutionizing urban transit</h1>
-                    <p class="claim-sub">Hermes provides instant access to a vast network of innovative personal
-                        transportation solutions.</p>
-                    <div id="hero-claim-links">
-                        <a href="#fleet" class="cta cta-accent">Find a vehicle</a>
-                        <a href="#about" class="cta">Learn more</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="content" id="fleet">
-            <section>
-                <h2>
-                    The right vehicle for every journey
-                </h2>
-                <p class="subheading">
-                    Our diverse fleet is designed to accomodate the full range of urban transportation needs.
-                </p>
-    
-                <div class="vehicle-cards">
-                    <div class="vehicle-item">
-                        <div class="vehicle-icon-container">
-                            <img src="assets/icons/equine.svg" alt="Equine vehicle icon" class="vehicle-icon">
-                        </div>
-                        <div class="vehicle-item-right">
-                            <div class="vehicle-item-text">
-                                <h3 class="vehicle-item-title">
-                                    E-type Horse
-                                </h3>
-                                <p class="vehicle-item-description">
-                                    High-efficiency equine locomotion unit, ideal for long-distance travel and varied
-                                    terrain.
-                                </p>
-                            </div>
-                            <div class="vehicle-item-stats">
-                                <span>
-                                    Self-powered
-                                </span>
-                                <span>
-                                    Up to 50km/h
-                                </span>
-                                <span>
-                                    Up to 2 passengers
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vehicle-item">
-                        <div class="vehicle-icon-container">
-                            <img src="assets/icons/pf.svg" alt="penny-farthing icon" class="vehicle-icon">
-                        </div>
-                        <div class="vehicle-item-right">
-                            <div class="vehicle-item-text">
-                                <h3 class="vehicle-item-title">
-                                    V-type High-Wheel
-                                </h3>
-                                <p class="vehicle-item-description">
-                                    Vertically enhanced human-powered mobility platform for short-distance urban travel.
-                                </p>
-                            </div>
-                            <div class="vehicle-item-stats">
-                                <span>
-                                    Human-powered
-                                </span>
-                                <span class="stat-note" title="Top speed may vary based on terrain and rider skill">
-                                    Up to ~20km/h*
-                                </span>
-                                <span>
-                                    Single-passenger
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vehicle-item">
-                        <div class="vehicle-icon-container">
-                            <img src="assets/icons/handcar.svg" alt="handcar icon" class="vehicle-icon">
-                        </div>
-                        <div class="vehicle-item-right">
-                            <div class="vehicle-item-text">
-                                <h3 class="vehicle-item-title">
-                                    R-type Handcar
-                                </h3>
-                                <p class="vehicle-item-description">
-                                    Human-powered group transportation vehicle that makes use of existing rail
-                                    infrastructure.
-                                </p>
-                            </div>
-                            <div class="vehicle-item-stats">
-                                <span>
-                                    Human-powered
-                                </span>
-                                <span class="stat-note" title="Top speed may vary based on terrain and rider skill">
-                                    Up to ~15km/h*
-                                </span>
-                                <span>
-                                    Up to 4 passengers
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vehicle-item">
-                        <div class="vehicle-icon-container">
-                            <img src="assets/icons/gokart.svg" alt="gokart icon" class="vehicle-icon">
-                        </div>
-                        <div class="vehicle-item-right">
-                            <div class="vehicle-item-text">
-                                <h3 class="vehicle-item-title">
-                                    G-type Motorized Kart
-                                </h3>
-                                <p class="vehicle-item-description">
-                                    Low-profile motorized kart with four wheels and a low center of gravity.
-                                </p>
-                            </div>
-                            <div class="vehicle-item-stats">
-                                <span>
-                                    Motorized
-                                </span>
-                                <span>
-                                    Up to 90km/h
-                                </span>
-                                <span>
-                                    Single-passenger
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <p class="subheading" id="fleet-footnote">
-                    and more. Check the app for the full fleet and availability in your area.
-                </p>
-            </section>
-        </div>
-        <div class="content bg-accent" id="get-started">
-            <section>
-                <h2 class="semibold">
-                    How to Hermes
-                </h2>
-                <div id="manual-steps">
-                    <div class="manual-step">
-                        <img src="assets/images/guide-step-1.png" class="step-image"
-                            alt="Photo of multiple V-type High-Wheel vehicles parked on a sidewalk">
-                        <div class="step-text">
-                            <h3 class="step-title">Find your vehicle</h3>
-                            <p class="step-description">Use the app to locate a nearby vehicle that suits your needs.</p>
-                        </div>
-                    </div>
-                    <div class="manual-step">
-                        <img src="assets/images/guide-step-2.png"
-                            alt="Photo of a hand holding a phone with the Hermes app open, a prompt on screen reads 'Scan a Hermes QR code to proceed'"
-                            class="step-image">
-                        <div class="step-text">
-                            <h3 class="step-title">Unlock the vehicle</h3>
-                            <p class="step-description">Scan the QR code on the vehicle to start your journey.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="manual-step">
-                        <img src="assets/images/guide-step-3.png"
-                            alt="Photo of a joyous person riding a V-type High-Wheel vehicle" class="step-image">
-                        <div class="step-text">
-                            <h3 class="step-title">Enjoy your ride</h3>
-                            <p class="step-description">After you&apos;re done, park the vehicle in its designated spot.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="content" id="faq">
-            <section>
-                <h2 class="margin">
-                    Frequently Asked Questions
-                </h2>
-                <details class="faq-item">
-                    <summary class="faq-title">What is Hermes?</summary>
-                    <p class="faq-body">
-                        Hermes is an urban mobility service offering on-demand access to a vast network of innovative
-                        personal
-                        transportation solutions Whether you&apos;re commuting, exploring the city, or solving the last
-                        mile, Hermes
-                        provides the right vehicle for every journey.
-                    </p>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-title">How do I find a vehicle?</summary>
-                    <p class="faq-body">
-                        Open the Hermes app and tap "Find a Ride". Alternatively, look for our signature black and yellow
-                        livery and signage around the city.
-                    </p>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-title">Do I need a driver&apos;s license?</summary>
-                    <p class="faq-body">
-                        It depends on your city and type of vehicle. G-type, R-type, and most other non-living vehicles
-                        are available to any user with a valid Hermes account who has verified their age and completed our
-                        in-app safety training. Certain high-speed
-                        vehicles may require a valid driver&apos;s license for use on public roads, depending on local
-                        regulations. Check the Hermes app for specific requirements in your area.
-                    </p>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-title">Are Hermes vehicles street-legal?</summary>
-                    <p class="faq-body">
-                        We work closely with local authorities to ensure the vehicles we deploy in a given city are
-                        compliant with local traffic laws and regulations. With that being said, some vehicles are better
-                        suited for bike lanes or pedestrian paths. The Hermes app will let you know of any restrictions or
-                        requirements for your chosen vehicle in advance.
-                    </p>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-title">Are the horses okay?</summary>
-                    <p class="faq-body">
-                        Hermes maintains rigorous welfare standards across our entire living fleet in partnership
-                        with certified animal care providers. All E-type and EM-type units undergo daily health assessments
-                        and rotating rest periods. All E-type parking stations are equipped with ample food and water
-                        supplies, as well as climate-controlled shelters and a trained team of caretakers. The horses are
-                        doing very well.
-                    </p>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-title">When is Hermes coming to my city?</summary>
-                    <p class="faq-body">
-                        Our network is always expanding. Due to the complex and multifaceted nature of our business, we are
-                        unable
-                        to provide
-                        specific timelines for new city launches at this time. However, we do publish regular updates on our
-                        newsletter
-                        and social media channels.
-                    </p>
-                </details>
-            </section>
-        </div>
-    </main>
-</body>
 
+    <main>
+      <div id="hero-bg">
+        <div id="hero-content">
+          <div id="hero-claim-container">
+            <h1 class="claim">Revolutionizing urban transit</h1>
+            <p class="claim-sub">
+              Hermes provides instant access to a vast network of innovative
+              personal transportation solutions.
+            </p>
+            <div id="hero-claim-links">
+              <a href="#fleet" class="cta cta-accent">Find a vehicle</a>
+              <a href="#get-started" class="cta">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content" id="fleet">
+        <section>
+          <h2>The right vehicle for every journey</h2>
+          <p class="subheading">
+            Our diverse fleet is designed to accommodate the full range of urban
+            transportation needs.
+          </p>
+
+          <div class="vehicle-cards">
+            <div class="vehicle-item">
+              <div class="vehicle-icon-container">
+                <img
+                  src="assets/icons/equine.svg"
+                  alt="Equine vehicle icon"
+                  class="vehicle-icon"
+                />
+              </div>
+              <div class="vehicle-item-right">
+                <div class="vehicle-item-text">
+                  <h3 class="vehicle-item-title">E-type Horse</h3>
+                  <p class="vehicle-item-description">
+                    High-efficiency equine locomotion unit, ideal for
+                    long-distance travel and varied terrain.
+                  </p>
+                </div>
+                <div class="vehicle-item-stats">
+                  <span>Self-powered</span>
+                  <span>Up to 50km/h</span>
+                  <span>Up to 2 passengers</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="vehicle-item">
+              <div class="vehicle-icon-container">
+                <img
+                  src="assets/icons/pf.svg"
+                  alt="penny-farthing icon"
+                  class="vehicle-icon"
+                />
+              </div>
+              <div class="vehicle-item-right">
+                <div class="vehicle-item-text">
+                  <h3 class="vehicle-item-title">V-type High-Wheel</h3>
+                  <p class="vehicle-item-description">
+                    Vertically enhanced human-powered mobility platform for
+                    short-distance urban travel.
+                  </p>
+                </div>
+                <div class="vehicle-item-stats">
+                  <span>Human-powered</span>
+                  <span
+                    class="stat-note"
+                    title="Top speed may vary based on terrain and rider skill"
+                  >
+                    Up to ~20km/h*
+                  </span>
+                  <span>Single-passenger</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="vehicle-item">
+              <div class="vehicle-icon-container">
+                <img
+                  src="assets/icons/handcar.svg"
+                  alt="handcar icon"
+                  class="vehicle-icon"
+                />
+              </div>
+              <div class="vehicle-item-right">
+                <div class="vehicle-item-text">
+                  <h3 class="vehicle-item-title">R-type Handcar</h3>
+                  <p class="vehicle-item-description">
+                    Human-powered group transportation vehicle that makes use of
+                    existing rail infrastructure.
+                  </p>
+                </div>
+                <div class="vehicle-item-stats">
+                  <span>Human-powered</span>
+                  <span
+                    class="stat-note"
+                    title="Top speed may vary based on terrain and rider skill"
+                  >
+                    Up to ~15km/h*
+                  </span>
+                  <span>Up to 4 passengers</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="vehicle-item">
+              <div class="vehicle-icon-container">
+                <img
+                  src="assets/icons/gokart.svg"
+                  alt="gokart icon"
+                  class="vehicle-icon"
+                />
+              </div>
+              <div class="vehicle-item-right">
+                <div class="vehicle-item-text">
+                  <h3 class="vehicle-item-title">G-type Motorized Kart</h3>
+                  <p class="vehicle-item-description">
+                    Low-profile motorized kart with four wheels and a low center
+                    of gravity.
+                  </p>
+                </div>
+                <div class="vehicle-item-stats">
+                  <span>Motorized</span>
+                  <span>Up to 90km/h</span>
+                  <span>Single-passenger</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <p class="subheading" id="fleet-footnote">
+            and more. Check the app for the full fleet and availability in your
+            area.
+          </p>
+        </section>
+      </div>
+
+      <div class="content bg-accent" id="get-started">
+        <section>
+          <h2 class="semibold">How to Hermes</h2>
+
+          <div id="manual-steps">
+            <div class="manual-step">
+              <img
+                src="assets/images/guide-step-1.png"
+                class="step-image"
+                alt="Photo of multiple V-type High-Wheel vehicles parked on a sidewalk"
+              />
+              <div class="step-text">
+                <h3 class="step-title">Find a vehicle</h3>
+                <p class="step-description">
+                  Use the app to locate a nearby vehicle that suits your needs.
+                </p>
+              </div>
+            </div>
+
+            <div class="manual-step">
+              <img
+                src="assets/images/guide-step-2.png"
+                alt="Photo of a hand holding a phone with the Hermes app open, a prompt on screen reads 'Scan a Hermes QR code to proceed'"
+                class="step-image"
+              />
+              <div class="step-text">
+                <h3 class="step-title">Unlock the vehicle</h3>
+                <p class="step-description">
+                  Scan the QR code on the vehicle to start your journey.
+                </p>
+              </div>
+            </div>
+
+            <div class="manual-step">
+              <img
+                src="assets/images/guide-step-3.png"
+                alt="Photo of a joyous person riding a V-type High-Wheel vehicle"
+                class="step-image"
+              />
+              <div class="step-text">
+                <h3 class="step-title">Enjoy your ride</h3>
+                <p class="step-description">
+                  After you&apos;re done, park the vehicle in its designated
+                  spot.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="content" id="faq">
+        <section>
+          <h2 class="margin">Frequently Asked Questions</h2>
+          <details class="faq-item">
+            <summary class="faq-title">What is Hermes?</summary>
+            <p class="faq-body">
+              Hermes is an urban mobility service offering on-demand access to a
+              vast network of innovative personal transportation solutions
+              Whether you&apos;re commuting, exploring the city, or solving the
+              last mile, Hermes provides the right vehicle for every journey.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-title">How do I find a vehicle?</summary>
+            <p class="faq-body">
+              Open the Hermes app and tap "Find a Ride". Alternatively, look for
+              our signature black and yellow livery and signage around the city.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-title">
+              Do I need a driver&apos;s license?
+            </summary>
+            <p class="faq-body">
+              It depends on your city and type of vehicle. G-type, R-type, and
+              most other non-living vehicles are available to any user with a
+              valid Hermes account who has verified their age and completed our
+              in-app safety training. Certain high-speed vehicles may require a
+              valid driver&apos;s license for use on public roads, depending on
+              local regulations. Check the Hermes app for specific requirements
+              in your area.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-title">
+              Are Hermes vehicles street-legal?
+            </summary>
+            <p class="faq-body">
+              We work closely with local authorities to ensure the vehicles we
+              deploy in a given city are compliant with local traffic laws and
+              regulations. With that being said, some vehicles are better suited
+              for bike lanes or pedestrian paths. The Hermes app will let you
+              know of any restrictions or requirements for your chosen vehicle
+              in advance.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-title">Are the horses okay?</summary>
+            <p class="faq-body">
+              Hermes maintains rigorous welfare standards across our entire
+              living fleet in partnership with certified animal care providers.
+              All E-type and EM-type units undergo daily health assessments and
+              rotating rest periods. All E-type parking stations are equipped
+              with ample food and water supplies, as well as climate-controlled
+              shelters and a trained team of caretakers. The horses are doing
+              very well.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-title">
+              When is Hermes coming to my country/city/province?
+            </summary>
+            <p class="faq-body">
+              Our network is always expanding. Due to the complex and
+              multifaceted nature of our business, we are unable to provide
+              specific timelines for new city launches at this time. However, we
+              do publish regular updates via our newsletter and social media
+              channels.
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-title">
+              Can I take a Hermes vehicle on public transit with me?
+            </summary>
+            <p class="faq-body">No.</p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-title">Why is it called Hermes?</summary>
+            <p class="faq-body">
+              Hermes is the Greek god of travel, roads, and speed. We
+              couldn&apos;t think of anything else.
+            </p>
+          </details>
+        </section>
+      </div>
+
+      <div class="content bg-accent" id="app">
+        <section id="app-container">
+          <div class="app-content">
+            <h2 class="semibold">Download the app to get started</h2>
+            <p class="subheading dark">
+              Create an account, find a vehicle, and start your journey with
+              Hermes today.
+            </p>
+            <div>
+              <img src="assets/icons/gloogle.svg" alt="Get it on Gloogle" />
+              <img
+                src="assets/icons/fruitstore.svg"
+                alt="Download on the FruitStore"
+              />
+            </div>
+          </div>
+
+          <img
+            src="assets/images/iphone-mockup.png"
+            alt="Hermes app mockup"
+            id="app-image"
+          />
+        </section>
+      </div>
+
+      <footer>
+        <div id="footer-container">
+          <div id="footer-logo-container">
+            <h3 class="footer-header">
+              Hermes Transit Company
+              <br />
+              2026
+            </h3>
+            <img
+              src="assets/icons/runner-dotmatrix.svg"
+              alt="Hermes Runner logo"
+              id="footer-logo"
+            />
+          </div>
+          
+          <div id="footer-links">
+            <div class="footer-link-block">
+              <h3 class="footer-header">Company</h3>
+              <a href="https://youtu.be/ToQVoyWWluQ">About us</a>
+              <a href="https://youtu.be/ToQVoyWWluQ">Our mission</a>
+              <a href="https://youtu.be/ToQVoyWWluQ">Careers</a>
+              <a href="https://youtu.be/ToQVoyWWluQ">Press</a>
+              <a href="https://youtu.be/ToQVoyWWluQ">Investors</a>
+            </div>
+            <div class="footer-link-block">
+              <h3 class="footer-header">Website</h3>
+              <a href="https://youtu.be/ToQVoyWWluQ">
+                HSE School of Design 2026
+              </a>
+              <a href="https://youtu.be/ToQVoyWWluQ">Source code</a>
+              <a href="https://youtu.be/ToQVoyWWluQ">
+                This service is not real
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
