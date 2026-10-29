@@ -1,0 +1,349 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: #f0f0f0;
+    padding-top: 3.5rem;
+    padding-bottom: 24rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    background-color: #000;
+}
+
+#nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1548px;
+}
+
+#nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cta {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+}
+
+.cta:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.cta-accent {
+    background-color: #ffce05;
+    color: #000;
+    font-weight: 600;
+}
+
+.cta-accent:hover {
+    background-color: #ecbf08;
+    color: #000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    gap: 4rem;
+}
+
+#hero-bg {
+    /* TODO optimize */
+    background: url("../assets/images/pf-stand-hero-hq.png") no-repeat 85% center;
+
+    background-size: cover;
+    width: 100%;
+    height: 48rem;
+    padding: 4rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#hero-content {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    max-width: 1548px;
+    width: 100%;
+}
+
+#hero-claim-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 1rem;
+
+    background-color: #000;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem 1rem 1rem;
+}
+
+#hero-claim-links {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+}
+
+.claim {
+    font-size: 4rem;
+    line-height: 3.25rem;
+}
+
+.claim-sub {
+    font-size: 1.25rem;
+    letter-spacing: -3%;
+    word-spacing: 3%;
+    max-width: 32rem;
+    text-wrap-style: pretty;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding: 0 4rem;
+    gap: 4rem;
+}
+
+.bg-accent {
+    background-color: #ffce05;
+    padding: 4rem;
+    color: #000;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    max-width: 1548px;
+    gap: 0.5rem;
+}
+
+.subheading {
+    font-size: 1rem;
+    color: #a4a4a4;
+    margin-bottom: 1rem;
+}
+
+.vehicle-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    background-color: #000;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.vehicle-item-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+    gap: 0.75rem;
+}
+
+.vehicle-item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0.5rem;
+}
+
+.vehicle-item-stats {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+
+    span {
+        font-size: 0.9rem;
+        color: #ffce05;
+    }
+}
+
+.stat-note {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #333;
+    cursor: help;
+}
+
+.vehicle-icon {
+    width: 5rem;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+.vehicle-icon-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    /* margin: 0 0 0.25rem; */
+}
+
+.footnote {
+    font-size: 0.75rem;
+    color: #a4a4a4;
+}
+
+.vehicle-cards {
+    width: 100%;
+    display: grid;
+    margin-top: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
+    column-gap: 2rem;
+}
+
+.vehicle-item-title {
+    font-size: 1.5rem;
+    word-spacing: 0.3rem;
+}
+
+.vehicle-item-description {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #a4a4a4;
+}
+
+#fleet-footnote {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.dark {
+    color: #000;
+}
+
+#manual {
+    /* align-items: center;
+    text-align: center; */
+}
+
+#manual-steps {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.manual-step {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    border: 0.25rem solid #000;
+    background-color: #ffce05;
+    color: #f0f0f0;
+}
+
+.step-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    max-height: 36rem;
+}
+
+.step-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #000;
+    width: 100%;
+}
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    border-bottom: 1px solid #333;
+    padding: 1rem 0;
+}
+
+.faq-title {
+    width: 100%;
+    font-size: 1.5rem;
+    letter-spacing: -6%;
+    word-spacing: 10%;
+    font-weight: 500;
+    font-family: "Instrument Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    cursor: pointer;
+
+    &::marker {
+        content: "";
+    }
+}
+
+.faq-body {
+    font-size: 1rem;
+    color: #a4a4a4;
+    margin-top: 0.5rem;
+    line-height: 1.25rem;
+}
+
+.faq-item::details-content {
+    opacity: 0;
+    transition: opacity 0.2s, content-visibility 0.2s allow-discrete;
+}
+
+.faq-item[open]::details-content {
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+.margin {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+    /* TODO adaptive business */
+}
